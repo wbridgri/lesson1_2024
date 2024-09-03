@@ -48,6 +48,15 @@ body {
     padding-left: 0;
 }
 
+.nav-link {
+    color: var(--prim);
+    text-decoration: none;
+    transition: color 500ms ease-in;
+}
+.nav-link:hover {
+    color: var(--sec);
+}
+
 .row {
     display: flex;
     /* flex-direction: row-reverse; */
